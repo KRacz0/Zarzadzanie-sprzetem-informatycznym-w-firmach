@@ -1,0 +1,167 @@
+/* Kolory */
+.bg-red {
+    background-color: #ed1c24;
+}
+
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background-color: #ab0b0b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar .nav-link {
+    color: #fff;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #ed1c24;
+    border-radius: 5px;
+}
+
+.sidebar img {
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Kafelki */
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-square {
+    width: 60px;
+    height: 60px;
+    background-color: #ed1c24;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(237, 28, 36, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-square i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.icon-square:hover {
+    transform: scale(1.1);
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card-body.text-start {
+    text-align: left !important; 
+}
+
+
+#addEventModal .modal-header {
+    background-color: #ed1c24;
+    color: #fff;
+}
+
+.btn.bg-red {
+    background-color: #ed1c24;
+    color: #fff;
+    border: none;
+}
+
+.btn.bg-red:hover {
+    background-color: #c20f1a;
+}
+
+#calendar-container {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.card-body.text-start {
+    text-align: left !important; 
+}
+
+.card-body::-webkit-scrollbar {
+    width: 6px;
+}
+.card-body::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+    border-radius: 10px;
+}
+
+
+.fc-event {
+    background-color: #ed1c24 !important;
+    border-color: #ed1c24 !important;
+    color: #fff !important;
+}
+
+/* Auth */
+.auth-page {
+    min-height: 100vh;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+}
+
+.auth-card {
+    border: none;
+    overflow: hidden;
+}
+
+.auth-card .card-header {
+    background-color: #ab0b0b;
+    color: #fff;
+    border-bottom: none;
+}
+
+.auth-logo {
+    max-width: 140px;
+}
+
+.auth-subtitle {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.auth-link a {
+    color: #ed1c24;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}

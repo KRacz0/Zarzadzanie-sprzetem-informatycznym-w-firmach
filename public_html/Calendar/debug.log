@@ -1,0 +1,91 @@
+Array
+(
+    [POST] => Array
+        (
+            [event_date] => 2025-04-22
+            [title] => Aktualizacja serwera
+            [description] => test
+            [location_id] => 2
+            [user_ids] => Array
+                (
+                    [0] => 1
+                    [1] => 2
+                )
+
+        )
+
+    [userIdCsv] => 1,2
+    [SQL Error] => 
+)
+Array
+(
+    [POST] => Array
+        (
+            [event_date] => 2025-04-23
+            [title] => Inne
+            [description] => test
+            [location_id] => 12
+            [user_ids] => Array
+                (
+                    [0] => 1
+                )
+
+        )
+
+    [userIdCsv] => 1
+    [SQL Error] => 
+)
+Array
+(
+    [POST] => Array
+        (
+            [event_date] => 2025-04-24
+            [title] => Aktualizacja serwera
+            [description] => Sben DP2
+            [location_id] => 2
+            [user_ids] => Array
+                (
+                    [0] => 2
+                )
+
+        )
+
+    [userIdCsv] => 2
+    [SQL Error] => 
+)
+Array
+(
+    [POST] => Array
+        (
+            [event_date] => 2025-05-16
+            [title] => Aktualizacja serwera
+            [description] => ddd
+            [location_id] => 1
+            [user_ids] => Array
+                (
+                    [0] => 1
+                )
+
+        )
+
+    [userIdCsv] => 1
+    [SQL Error] => 
+)
+Array
+(
+    [POST] => Array
+        (
+            [event_date] => 2025-10-15
+            [title] => Aktualizacja serwera
+            [description] => Bh
+            [location_id] => 1
+            [user_ids] => Array
+                (
+                    [0] => 1
+                )
+
+        )
+
+    [userIdCsv] => 1
+    [SQL Error] => 
+)
